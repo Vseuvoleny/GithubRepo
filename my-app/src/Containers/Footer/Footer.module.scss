@@ -1,0 +1,27 @@
+@import "../../Styles/config";
+
+.footer {
+  width: 100%;
+  background: $primary;
+  height: 20vh;
+}
+
+.media_section {
+  padding-top: 50px;
+  @include flex_main(center, space-around);
+}
+.media_container {
+  & a {
+    text-decoration: none;
+    color: $textColor;
+    @include flex_main(center, center);
+  }
+  & img {
+    margin-right: 20px;
+    @include image_size();
+  }
+}
+
+.copyright_title {
+  margin-top: 20px;
+}

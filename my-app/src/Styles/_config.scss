@@ -1,0 +1,13 @@
+$primary:#B8F2E6;
+$textColor:#5E6472;
+
+@mixin flex_main($AI,$JC){
+display: flex;
+justify-content: $JC;
+align-items: $AI;
+}
+
+@mixin image_size(){
+    width: 25px;
+    height: 25px;
+}
